@@ -12,7 +12,7 @@ In directory <i>terraform-docker</i>:
   
 ## Testing
   
-Before testing you have to type this command <code>sudo chmod 666 /var/run/docker.sock</code>.
+Before testing you have to type this command <code>sudo chmod 666 /var/run/docker.sock</code> to grant the appropriate permissions otherwise the tests will fail.
   
 To run the tests you need to go to <i>/testing/test</i> and type command <code>go test -v nginx_test.go</code>.
 
