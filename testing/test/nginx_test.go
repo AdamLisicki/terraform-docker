@@ -12,7 +12,7 @@ func TestTerraformExample(t *testing.T){
 
   terraformOptions := terraform.WithDefaultRetryableErrors(t, &terraform.Options{
 
-    TerraformDir: "../examples",
+    TerraformDir: "../examples/hello_world_nginx",
 
     Vars: map[string]interface{}{
       "image": "adamlisicki/hello_world_nginx",

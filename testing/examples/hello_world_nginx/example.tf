@@ -1,5 +1,5 @@
 module "hello_world_nginx" {
-  source = "../"
+  source = "../../"
 
   image = var.image
   name  = var.name
