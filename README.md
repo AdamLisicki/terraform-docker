@@ -4,7 +4,7 @@ Datails about this module are located in directory <i>terraform-module</i> in [<
 
 ## How to run this module
 
-In directory <i>terraform-docker</i>:
+In directory <i>terraform-docker</i> execute the following commands:
 
 1. <code>sudo terraform init</code>
 2. <code>sudo terraform plan</code>
