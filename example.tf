@@ -5,3 +5,7 @@ module "hello_world_nginx" {
   name  = var.name
   port  = var.port
 }
+
+output "container_id" {
+  value = module.hello_world_nginx.container_id
+}
