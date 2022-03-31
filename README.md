@@ -1,6 +1,6 @@
 # Terraform module for running dockerized application
 
-Datails about this module are located in directory <i>terraform-module</i> in <i>README.md</i> file.
+Datails about this module are located in directory <i>terraform-module</i> in [<i>README.md</i>](terraform-module/README.md) file. 
 
 ## How to run this module
 
