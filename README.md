@@ -8,7 +8,9 @@ In directory <i>terraform-docker</i> execute the following commands:
 
 1. <code>sudo terraform init</code>
 2. <code>sudo terraform plan</code>
-3. <code>sudo terraform apply</code> Note: If you want to change default value of variables type instead: <code>sudo terraform apply <b>-var="var1=value1" -             var="var2=value2"<b></code>
+3. <code>sudo terraform apply</code> 
+
+Note: If you want to change default value of variables type instead: <code>sudo terraform apply <b>-var="var1=value1" -var="var2=value2"<b></code>
   
 ## Testing
   
