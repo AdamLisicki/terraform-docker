@@ -11,6 +11,12 @@ Datails about this module are located in directory <i>terraform-module</i> in <i
   
 ## Testing
   
-Before tests you have to type this command <code>sudo chmod 666 /var/run/docker.sock</code>.
+Before testing you have to type this command <code>sudo chmod 666 /var/run/docker.sock</code>.
   
-To run the tests you need to go to <i>/testing/test</i> and type command <code>go test -v nginx_test.go</code>
+To run the tests you need to go to <i>/testing/test</i> and type command <code>go test -v nginx_test.go</code>.
+
+## Makefile
+  
+The Makefile is located in the webapp folder. 
+  
+The Makefile builds and publishes the image to the Docker Hub.
